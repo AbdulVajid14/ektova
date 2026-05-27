@@ -1,0 +1,11 @@
+@keyframes fallIn {
+  0%   { opacity: 0; transform: translateY(-40px); }
+  60%  { transform: translateY(6px); }
+  80%  { transform: translateY(-3px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.fall-char {
+  display: inline-block;
+  opacity: 0;
+  animation: fallIn 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
