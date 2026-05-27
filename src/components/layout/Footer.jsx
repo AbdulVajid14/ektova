@@ -32,10 +32,10 @@ const LEGAL = [
 ];
 
 const SOCIAL = [
-  { icon: FaFacebookF,  href: "#", label: "Facebook"  },
-  { icon: FaLinkedinIn, href: "#", label: "LinkedIn"  },
-  { icon: FaInstagram,  href: "#", label: "Instagram" },
-  { icon: FaXTwitter,   href: "#", label: "X"         },
+  { icon: FaFacebookF,  href: "https://www.facebook.com/EktovaTechnologies/", label: "Facebook"  },
+  { icon: FaLinkedinIn, href: "https://www.linkedin.com/company/ektova/posts/?feedView=all", label: "LinkedIn"  },
+  { icon: FaInstagram,  href: "https://www.instagram.com/ektova_tech/?hl=en", label: "Instagram" },
+  { icon: FaXTwitter,   href: "https://x.com/Ektova_tech", label: "X"         },
 ];
 
 // ── Sub-components (all memo'd — no re-render unless props change) ──
